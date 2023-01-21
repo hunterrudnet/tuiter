@@ -1,0 +1,93 @@
+.wd-global {
+    margin-left: 16px;
+    background-color: black;
+}
+
+/* A class */
+
+.wd-A-borders {
+    border-width: 2px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(47, 51, 54);
+    border-left-color: rgb(47, 51, 54);
+    border-right-color: rgb(47, 51, 54);
+}
+
+.wd-A-searchbar {
+    margin-left: 16px;
+    color: white;
+    background-color: #3b3b3b;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5px;
+    padding: 7px;
+    width: 80%;
+}
+
+.wd-A-settings {
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+/* B class */
+
+.wd-B-boarders {
+    border-bottom: rgb(47, 51, 54) solid 2px;
+    border-left: rgb(47, 51, 54) solid 2px;
+    border-right: rgb(47, 51, 54) solid 2px;
+    padding: 16px;
+}
+
+.wd-B-hyperlink {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    width: 15%;
+    text-decoration: none;
+}
+
+.wd-B-hyperlink-first {
+    color: rgb(29, 161, 242);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(29, 161, 242);
+}
+
+/* C class */
+
+.wd-C-D-E-boarders {
+    margin-left: 16px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding: 3px;
+}
+.wd-C-topic-and-tuits {
+    margin-left: 16px;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-C-D-E-title {
+    margin-left: 16px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* D class */
+.wd-D-author {
+    margin-left: 16px;
+    color: white;
+    font-size: 13px;
+}
+
+.wd-D-E-image {
+    margin-right: 80px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
