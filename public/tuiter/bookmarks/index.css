@@ -1,0 +1,26 @@
+.wd-global {
+    margin-left: 16px;
+    background-color: black;
+}
+
+.wd-boarders {
+    border-top: rgb(47, 51, 54) solid 1px;
+    border-bottom: rgb(47, 51, 54) solid 1px;
+    border-left: rgb(47, 51, 54) solid 1px;
+    border-right: rgb(47, 51, 54) solid 1px;
+}
+
+
+.wd-A-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-A-user {
+    color: #6b6b6b;
+    font-size: 13px;
+    margin-left: 16px;
+}
