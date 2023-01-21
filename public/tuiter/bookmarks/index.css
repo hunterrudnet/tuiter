@@ -1,6 +1,7 @@
 .wd-global {
     margin-left: 16px;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wd-boarders {
@@ -11,7 +12,7 @@
 }
 
 
-.wd-A-title {
+.wd-title {
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -19,7 +20,7 @@
     margin-top: 12px;
 }
 
-.wd-A-user {
+.wd-user {
     color: #6b6b6b;
     font-size: 13px;
     margin-left: 16px;
