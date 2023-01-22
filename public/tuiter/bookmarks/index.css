@@ -45,7 +45,6 @@
 .wd-image {
     width: 504px;
     height: 264px;
-    margin-left: 12px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -56,7 +55,7 @@
     border-right: rgb(47, 51, 54) solid 1px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 16px;
+    margin: 32px;
 }
 
 .wd-inline-block-display {
@@ -76,6 +75,19 @@
     padding: 16px;
 }
 
+.wd-text-padding-F {
+    padding: 12px;
+}
+
+.wd-post-content {
+    font-size: 15px;
+    width: 506px;
+    padding-right: 16px;
+    margin-bottom: 12px;
+    display: inline-block;
+    margin-left: 12px;
+
+}
 .wd-make-bold {
     font-weight: bold;
 }
@@ -91,15 +103,12 @@
     height: 0;
 }
 
-.wd-content-width {
-    max-width: 508px;
-}
-
 .wd-no-decoration {
     text-decoration: none;
 }
 
 .wd-icon-width {
+    margin-top: 5px;
     float: left;
     width: 25%;
 }
