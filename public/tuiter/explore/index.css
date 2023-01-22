@@ -66,6 +66,10 @@
     padding: 3px;
 }
 
+.wd-text-padding {
+    padding: 2px;
+}
+
 .wd-make-flex {
     display: flex;
 }
@@ -93,6 +97,7 @@
 }
 
 .wd-image {
+    padding: 3px;
     width: 100px;
     height: 100px;
     border-radius: 20px;
