@@ -27,8 +27,8 @@
     float: right;
     margin-right: 12px;
     margin-top: 5px;
-    width: 15px;
-    height: 15px;
+    width: 22px;
+    height: 22px;
 }
 
 /* B class */
@@ -105,4 +105,5 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
+    object-fit: cover;
 }
