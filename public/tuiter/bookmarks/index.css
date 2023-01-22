@@ -34,11 +34,29 @@
 }
 
 .wd-avatar {
+    float: left;
     width: 48px;
     height: 48px;
     border-radius: 50%;
     margin-left: 12px;
     margin-top: 5px;
+}
+
+.wd-image {
+    width: 504px;
+    height: 264px;
+    margin-left: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-image-border {
+    border-bottom: rgb(47, 51, 54) solid 1px;
+    border-left: rgb(47, 51, 54) solid 1px;
+    border-right: rgb(47, 51, 54) solid 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 16px;
 }
 
 .wd-inline-block-display {
@@ -52,6 +70,10 @@
 .wd-white-text {
     margin-left: 16px;
     color: white;
+}
+
+.wd-text-padding {
+    padding: 16px;
 }
 
 .wd-make-bold {
@@ -71,4 +93,23 @@
 
 .wd-content-width {
     max-width: 508px;
+}
+
+.wd-no-decoration {
+    text-decoration: none;
+}
+
+.wd-icon-width {
+    float: left;
+    width: 25%;
+}
+
+.wd-red-text {
+    color: rgb(224, 36, 94);
+}
+
+.wd-icon {
+    color: rgb(110, 118, 125);
+    width: 20px;
+    height: 20px;
 }
