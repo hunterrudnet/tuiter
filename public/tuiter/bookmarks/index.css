@@ -5,10 +5,7 @@
 }
 
 .wd-boarders {
-    border-top: rgb(47, 51, 54) solid 1px;
-    border-bottom: rgb(47, 51, 54) solid 1px;
-    border-left: rgb(47, 51, 54) solid 1px;
-    border-right: rgb(47, 51, 54) solid 1px;
+    border: rgb(47, 51, 54) solid 1px;
 }
 
 .wd-display-flex {
@@ -51,6 +48,7 @@
     height: 264px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
 }
 
 .wd-image-border {
@@ -59,7 +57,7 @@
     border-right: rgb(47, 51, 54) solid 1px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin: 32px;
+    margin-left: 68px;
 }
 
 .wd-inline-block-display {
@@ -112,8 +110,8 @@
 }
 
 .wd-icon-width {
+    margin-left: 60px;
     margin-top: 5px;
-    float: left;
     width: 25%;
 }
 
