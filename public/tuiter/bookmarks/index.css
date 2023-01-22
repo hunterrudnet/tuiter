@@ -42,6 +42,10 @@
     margin-top: 5px;
 }
 
+.wd-max-width {
+    max-width: 504px;
+}
+
 .wd-image {
     width: 504px;
     height: 264px;
