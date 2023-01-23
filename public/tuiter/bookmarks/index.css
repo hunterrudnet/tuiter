@@ -38,7 +38,7 @@
 }
 
 .wd-move-right {
-    margin-left: 12px;
+    margin-left: 20px;
 }
 
 .wd-avatar {
@@ -68,7 +68,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: 15px;
-    margin-left: 68px;
+    margin-left: 78px;
 }
 
 .wd-inline-block-display {
@@ -96,9 +96,10 @@
     font-size: 15px;
     width: 506px;
     padding-right: 16px;
+    margin-top: 5px;
     margin-bottom: 12px;
     display: inline-block;
-    margin-left: 12px;
+    margin-left: 16px;
 
 }
 .wd-make-bold {
