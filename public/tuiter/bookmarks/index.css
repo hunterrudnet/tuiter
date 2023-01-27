@@ -16,9 +16,8 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    /* I think these margin's look better */
-    margin-left: 16px;
-    margin-top: 2px;
+    padding-left: 16px;
+    margin-top: 12px;
 }
 
 .wd-small-margin-top {
@@ -27,7 +26,7 @@
 
 .wd-reply-bar-margins {
     margin-top: 12px;
-    margin-bottom: 3px;
+    margin-bottom: 9px;
 }
 
 .wd-user {
@@ -46,7 +45,8 @@
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    margin-left: 12px;
+    /* I like the look of this better */
+    margin-left: 8px;
 }
 
 .wd-max-width {
@@ -80,7 +80,8 @@
 }
 
 .wd-white-text {
-    margin-left: 16px;
+    /* I like the look of 21px better than 16px */
+    margin-left: 21px;
     color: white;
 }
 
@@ -99,7 +100,8 @@
     margin-top: 5px;
     margin-bottom: 12px;
     display: inline-block;
-    margin-left: 16px;
+    /* I like the look of 21px better than 16px */
+    margin-left: 21px;
 
 }
 .wd-make-bold {
