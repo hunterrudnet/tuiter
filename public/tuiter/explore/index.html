@@ -13,9 +13,53 @@
 <body>
 
 <div class="row">
-    <!-- Left hand-side -->
-    <div class="col-xxl-2">Left Side</div>
-    <div class="col-xxl-6">
+        <div class="col-xxl-1"></div>
+        <div class="col-xxl-2">
+            <!-- Navigator -->
+            <div class="list-group">
+                <a href="tuiter.html" class="list-group-item list-group-item-action">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="home.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+                <a href="explore.html" class="list-group-item list-group-item-action active">
+                    <i class="fa-solid fa-hashtag"></i>
+                    Explore
+                </a>
+                <a href="notifications.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bell"></i>
+                    Notifications
+                </a>
+                <a href="messages.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-envelope"></i>
+                    Messages
+                </a>
+                <a href="bookmarks.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bookmark"></i>
+                    Bookmarks
+                </a>
+                <a href="lists.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-list"></i>
+                    Lists
+                </a>
+                <a href="profile.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-user"></i>
+                    Profile
+                </a>
+                <a href="more.html" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-ellipsis-h"></i>
+                    More
+                </a>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary rounded-pill">
+                    Tweet
+                </button>
+            </div>
+    </div>
+    <div class="col-xxl-5">
         <!-- Search Bar and Settings Gear -->
         <div class="row mt-2 mb-1">
             <div class="position-relative col-11">
@@ -29,19 +73,19 @@
         <!-- Category Bar -->
         <ul class="nav nav-tabs mb-2">
             <li class="nav-item">
-                <a class="nav-link active" href="#">For you</a>
+                <a class="nav-link active" href="for-you.html">For you</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Trending</a>
+                <a class="nav-link" href="trending.html">Trending</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="news.html">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sports</a>
+                <a class="nav-link" href="sports.html">Sports</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Entertainment</a>
+                <a class="nav-link" href="entertainment.html">Entertainment</a>
             </li>
         </ul>
 
@@ -61,10 +105,10 @@
                     <span class="fw-lighter"> - 2h</span>
                 </div>
                 <div class="fw-bold">React.js is a component based front end library that makes it very easy to build Single Page
-                    Applications of SPAs</div>
+                    Applications or SPAs</div>
             </div>
             <div class="col-2">
-                <i class="fab fa-react fa-5x float-right"></i>
+                <i class="fab fa-react fa-5x"></i>
             </div>
         </div>
 
@@ -110,9 +154,88 @@
         </div>
     </div>
 
-    <div class="col-xxl-4">Right side</div>
-
-
+    <div class="col-xxl-4">
+        <div class="list-group">
+            <div class="list-group-item">
+                Who to follow
+            </div>
+            <div class="row border">
+                <div class="col-1">
+                    <img class="rounded-circle" src="../../images/java.png" alt="Java" width="100%">
+                </div>
+                <div class="col-5">
+                    <span class="fw-bold">Java</span>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="fw-light">@java</div>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary rounded-pill">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col-1">
+                    <img class="rounded-circle" src="../../images/relativity.png" alt="Relativity" width="100%">
+                </div>
+                <div class="col-5">
+                    <span class="fw-bold">Relativity Space</span>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="fw-light">@relativityspace</div>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary rounded-pill">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col-1">
+                    <img class="rounded-circle" src="../../images/virgin-galactic.png" alt="Virgin Galactic" width="100%">
+                </div>
+                <div class="col-5">
+                    <span class="fw-bold">Virgin Galactic</span>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="fw-light">@virgingalactic</div>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary rounded-pill">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col-1">
+                    <img class="rounded-circle" src="../../images/nasa.png" alt="Nasa" width="100%">
+                </div>
+                <div class="col-5">
+                    <span class="fw-bold">NASA</span>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="fw-light">@NASA</div>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary rounded-pill">
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col-1">
+                    <img class="rounded-circle" src="../../images/tesla.png" alt="Tesla" width="100%">
+                </div>
+                <div class="col-5">
+                    <span class="fw-bold">Tesla</span>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="fw-light">@tesla</div>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary rounded-pill">
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
