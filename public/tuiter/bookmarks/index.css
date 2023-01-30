@@ -36,6 +36,10 @@
     margin-bottom: 12px;
 }
 
+.wd-margin-left-16px {
+    margin-left: 16px;
+}
+
 .wd-move-right {
     margin-left: 20px;
 }
@@ -80,8 +84,6 @@
 }
 
 .wd-white-text {
-    /* I like the look of 21px better than 16px */
-    margin-left: 21px;
     color: white;
 }
 
@@ -110,7 +112,6 @@
 
 .wd-grey-text {
     font-size: 15px;
-    margin-left: 16px;
     color: rgb(110, 118, 125);
 }
 
