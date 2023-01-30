@@ -40,6 +40,10 @@
     margin-left: 16px;
 }
 
+.wd-margin-left-12px {
+    margin-left: 12px;
+}
+
 .wd-move-right {
     margin-left: 20px;
 }
@@ -132,7 +136,6 @@
 
 .wd-red-text {
     font-size: 15px;
-    margin-left: 16px;
     color: rgb(224, 36, 94);
 }
 
