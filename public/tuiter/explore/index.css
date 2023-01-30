@@ -86,8 +86,11 @@
     display: inline-block;
 }
 
-.wd-grey-text {
+.wd-margin-left-16px {
     margin-left: 16px;
+}
+
+.wd-grey-text {
     color: rgb(110, 118, 125);
 }
 
