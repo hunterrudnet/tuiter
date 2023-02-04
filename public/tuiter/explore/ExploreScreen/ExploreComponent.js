@@ -13,7 +13,7 @@ const ExploreComponent = () => {
                     <i class="fa fa-cog fa-2x" style="color: dodgerblue"></i>
                 </a>
             </div>
-           <ul class="nav mb-2 nav-tabs">
+           <ul class="nav mb-2 nav-tabs mt-2">
                       <!-- tabs -->
                       <li class="nav-item">
                     <a class="nav-link active" href="for-you.html">For you</a>
