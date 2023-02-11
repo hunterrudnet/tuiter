@@ -6,7 +6,7 @@ const WhoToFollowListItem = (
 ) => {
     return(
         <>
-        <a href="#" className="list-group-item">
+            <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
                     <img className="rounded-circle" height={48} alt="Avatar Icon" src={`/images/${who.avatarIcon}`}/>
@@ -22,7 +22,7 @@ const WhoToFollowListItem = (
                     </button>
                 </div>
             </div>
-        </a>
+        </li>
     </>
     );
 };
