@@ -16,7 +16,7 @@ const ExploreComponent = () => {
                        bi-gear-fill fs-2 position-relative"></i>
                 </div>
             </div>
-            <ul className="nav nav-pills mb-2">
+            <ul className="nav mb-2 nav-tabs mt-2">
                 <li className="nav-item">
                     <a className="nav-link active">For You</a>
                 </li>
