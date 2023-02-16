@@ -9,7 +9,7 @@ function App() {
         <BrowserRouter>
             <div className="container">
                 <Routes>
-                    <Route path="/"
+                    <Route index
                            element={<Labs/>}/>
                     <Route path="/hello"
                            element={<HelloWorld/>}/>
