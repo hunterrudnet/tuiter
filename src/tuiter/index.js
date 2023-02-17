@@ -24,11 +24,10 @@ function Tuiter() {
                         <Route path="/home" element={<NavigationSidebar active="home"/>}/>
                         <Route path="/explore" element={<NavigationSidebar active="explore"/>}/>
                     </Routes>
-                    <NavigationSidebar active="explore"/>
                 </div>
                 <div className="col-10 col-lg-7 col-xl-6">
                     <Routes>
-                        <Route path="/" element={<HomeComponent/>}/>
+                        <Route path="/" element={<HomeComponent />}/>
                         <Route path="/home" element={<HomeComponent/>}/>
                         <Route path="/explore" element={<ExploreComponent/>}/>
                     </Routes>
