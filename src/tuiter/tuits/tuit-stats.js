@@ -24,7 +24,7 @@ const TuitStats = ({tuit}) => {
             </div>
             <div className="nav-item" onClick={likeHandler}>
                 {liked ?
-                    <i className="bi bi-heart-fill m-2"></i>
+                    <i className="bi bi-heart-fill text-danger m-2"></i>
                     :
                     <i className="bi bi-heart m-2"></i>
                 }
