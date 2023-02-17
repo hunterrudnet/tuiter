@@ -6,7 +6,6 @@ const TuitsList = () => {
     const tuitsArray = useSelector(state => state.tuits);
     return(
         <>
-        <h1>Home</h1>
         <ul className="list-group">
             {
                 tuitsArray.map(tuit =>
