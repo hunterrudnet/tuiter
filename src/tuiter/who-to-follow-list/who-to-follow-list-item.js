@@ -13,7 +13,7 @@ const WhoToFollowListItem = (
                 </div>
                 <div className="col-8 text-nowrap overlay">
                     <span className="fw-bold">{who.userName}</span>
-                    <i className="bi bi-check-circle-fill"></i>
+                    <i className="bi bi-check-circle-fill p-1"></i>
                     <div className="fw-light">@{who.handle}</div>
                 </div>
                 <div className="col-2">

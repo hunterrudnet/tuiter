@@ -13,24 +13,24 @@ const TuitStats = ({tuit}) => {
     }
 
     return(
-        <div className="nav nav-justified mt-2 p-0">
-            <div className="nav-item">
+        <div className="nav block mt-2">
+            <div className="nav-item w-25">
                 <i className="bi bi-chat m-2"></i>
-                <span className="text-muted">{tuit.replies}</span>
+                <span className="text-muted p-1">{tuit.replies}</span>
             </div>
-            <div className="nav-item">
+            <div className="nav-item w-25">
                 <i className="bi bi-arrow-repeat m-2"></i>
-                <span className="text-muted">{tuit.retuits}</span>
+                <span className="text-muted p-1">{tuit.retuits}</span>
             </div>
-            <div className="nav-item" onClick={likeHandler}>
+            <div className="nav-item w-25" onClick={likeHandler}>
                 {liked ?
                     <i className="bi bi-heart-fill text-danger m-2"></i>
                     :
                     <i className="bi bi-heart m-2"></i>
                 }
-                <span className="text-muted">{likes}</span>
+                <span className="text-muted p-1">{likes}</span>
             </div>
-            <div className="nav-item">
+            <div className="nav-item w-25">
                 <i className="bi bi-upload m-2"></i>
             </div>
         </div>
