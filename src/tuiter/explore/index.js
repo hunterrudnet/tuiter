@@ -27,6 +27,12 @@ const ExploreComponent = () => {
                 <li className="nav-item">
                     <Link to='/tuiter/news' className="nav-link">News</Link>
                 </li>
+                <li className="nav-item">
+                    <Link to='/tuiter/sports' className="nav-link">Sports</Link>
+                </li>
+                <li className="nav-item d-none d-md-inline">
+                    <Link to='/tuiter/entertainment' className="nav-link">Entertainment</Link>
+                </li>
             </ul>
             <div className="position-relative mb-2">
                 <img src="../../images/school.jpeg" alt='Students at School' className="w-100"/>
