@@ -1,43 +1,44 @@
-import React from "react";
-import NavigationSidebar from "./navigation-sidebar";
-import WhoToFollowList from "./who-to-follow-list";
-import HomeComponent from "./home";
-import ExploreComponent from "./explore";
-import whoReducer from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
-import { configureStore } from "@reduxjs/toolkit";
-import { Provider } from "react-redux";
-import {Route, Routes} from "react-router";
-const store = configureStore({
-    reducer: {
-        who: whoReducer,
-        tuitsData: tuitsReducer
+import React, {useState} from "react";
+import {createTuitThunk} from "../../services/tuits-thunks";
+
+import {useDispatch} from "react-redux";
+
+const WhatsHappening = () => {
+    let [whatsHappening, setWhatsHappening] = useState('');
+    const dispatch = useDispatch();
+
+    const tuitClickHandler = () => {
+        const newTuit = {
+            tuit: whatsHappening,
+        }
+        dispatch(createTuitThunk(newTuit));
     }
-});
-function Tuiter() {
     return (
-        <Provider store={store}>
-            <div className="row mt-2">
-                <div className="col-2 col-md-2 col-lg-1 col-xl-2">
-                    <Routes>
-                        <Route path="/" element={<NavigationSidebar active="home"/>}/>
-                        <Route path="/home" element={<NavigationSidebar active="home"/>}/>
-                        <Route path="/explore" element={<NavigationSidebar active="explore"/>}/>
-                    </Routes>
-                </div>
-                <div className="col-10 col-lg-7 col-xl-6">
-                    <Routes>
-                        <Route path="/" element={<HomeComponent />}/>
-                        <Route path="/home" element={<HomeComponent/>}/>
-                        <Route path="/explore" element={<ExploreComponent/>}/>
-                    </Routes>
-                </div>
-                <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                    <WhoToFollowList/>
+        <div className="row">
+            <div className="col-auto">
+                <img src="/images/nasa.png" alt='profile' width={60}/>
+            </div>
+            <div className="col-10">
+       <textarea value={whatsHappening} placeholder="What's happening?"
+                 className="form-control border-0"
+                 onChange={(event) => setWhatsHappening(event.target.value)}>
+       </textarea>
+                <div>
+                    <button className="rounded-pill btn btn-primary float-end mt-2 ps-3 pe-3 fw-bold"
+                            onClick={tuitClickHandler}>
+                        Tuit
+                    </button>
+                    <div className="text-primary fs-2">
+                        <i className="bi bi-card-image me-3"></i>
+                        <i className="bi bi-filetype-gif me-3"></i>
+                        <i className="bi bi-bar-chart me-3"></i>
+                        <i className="bi bi-emoji-smile me-3"></i>
+                        <i className="bi bi-geo-alt"></i>
+                    </div>
                 </div>
             </div>
-        </Provider>
+            <div className="col-12"><hr/></div>
+        </div>
     );
 }
-
-export default Tuiter
+export default WhatsHappening;
