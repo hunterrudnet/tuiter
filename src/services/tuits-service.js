@@ -1,6 +1,5 @@
 import axios from 'axios';
-const API_BASE = process.env.REACT_APP_API_BASE;
-const TUITS_API = `${API_BASE}/tuits`;
+const TUITS_API = 'https://tuiter-node-server-app-a9-uuiy.onrender.com/api/tuits'; // had to hardcode this because netlify had a bug with deploying diff env values per branch
 
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit)
